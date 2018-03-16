@@ -1,0 +1,18 @@
+#
+echo 	###
+echo	"### format and create a new variable of existing variables" 
+echo 	###
+#  
+set var1=universal
+set var2=data
+set var3=mover
+#
+echo "### $(var1)"
+echo "### $(var2)"
+echo "### $(var3)"
+echo ###
+format myvar "$(var1)_$(var2)_$(var3)"
+echo ###                 
+echo "$(myvar)"   
+echo ###                           
+#                                             
